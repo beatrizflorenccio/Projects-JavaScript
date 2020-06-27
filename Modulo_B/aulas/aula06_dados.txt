@@ -1,0 +1,52 @@
+MÓDULO B
+JavaScript - Tratamento de Dados
+
+//Concatenação
+
+exemplo: 
+var s = 5
+window.alert('a soma dos valores é ' + s)
+
+atenção:
+(string + number) para concatenação
+(string + string) para concatenação
+(number + number) para adição
+
+---------------------------------------------------------
+
+//Conversão
+
+STRING -> NUMBER
+Number.parseInt(n) -> converte para inteiro
+Number.parseFloat(n) -> converte para flutuante
+Number(n) -> o JavaScript se vira! Ele decide entre int ou float de acordo com o valor que ele recebe
+
+NUMBER -> STRING
+String(n) -> converte para string
+n.toString -> converte para string
+
+----------------------------------------------------------
+
+//template string
+
+var s = 'JavaScript'
+`Eu estou aprendendo ${s}` 
+
+-----------------------------------------------------------
+
+//formatando strings
+
+var s = 'JavaScript'
+s.length -> quantos caracteres a string tem
+s.toUpperCase() -> tudo para maiúsculas
+s.toLowerCase() -> tudo para minúsculas
+
+-----------------------------------------------------------
+
+//formatando numbers
+
+var n1 = 1545.5
+n1.toFixed(2) -> fixa em duas casas decimais
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> Formata em Real. Dinheiro.
+

@@ -1,0 +1,33 @@
+MÓDULO B
+JavaScript - Tipos de dados e variáveis
+
+
+//definindo
+var identificador_da_variável = valor_da_variável
+var idade = 16
+
+//identificadores
+
+- podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível usar letras ou números
+- É possível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas
+
+dicas:
+- maiúsculas e minúsculas fazem diferença
+- Tente escolher nomes coerentes para as variáveis
+- evite se tornar um 'programador alfabeto' ou 'programador contador'
+
+//variáveis servem para armazenar dados
+
+//tipos primordiais
+- number: qualquer valor numérico
+- string: conjunto de caracteres
+- boolean: true/false
+existem muitos outros, mas esses três são os primordiais
+
+comando:
+- typeof: tipo de
+
