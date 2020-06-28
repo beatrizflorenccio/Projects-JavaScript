@@ -1,4 +1,5 @@
-
+Módulo C
+JavaScript - Introdução ao DOM
 
 //DOM
 
@@ -49,4 +50,18 @@ ALGUNS MÉTODOS DE ACESSO AOS ELEMENTOS/OBJETOS
 //MARCA
 getElementsByTagName()
 
+
+//ID
+getElementById()
+
+//NOME
+getElementsByName()
+
+//CLASSE
+getElementsByClassesName()
+
+//SELETOR
+querySelector()
+querySelectorAll()
+os manuais recomendam a utilização por seletor ao invés das maneiras anteriores
           
