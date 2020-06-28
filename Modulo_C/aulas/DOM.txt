@@ -1,0 +1,67 @@
+Módulo C
+JavaScript - Introdução ao DOM
+
+//DOM
+
+Document Object Model
+
+Conjunto de objetos dentro do navegador que vai dar acesso aos componentes internos do seu site. Ele não funciona dentro do node.js. Ele está presente quando está rodando o JS no seu navegador.
+
+Árvore DOM. Começa da raiz. Essa raiz é chamada de window/janela. Tudo dentro do JS está dentro de um objeto chamado window.
+
+Objeto window possui outros objetos, como location, document, history... Segue abaixo um EXEMPLO de uma árvore DOM:
+
+
+                 ____window____
+                |       |      |
+             location   |    history
+                     document 
+                     ___|____
+                    |        |
+                __head      body___________
+               |    |          |   |   |   |
+             meta  title       h1  p   p   div
+                                       |
+                                     strong
+               
+
+- location: localização do site. url. página atual etc
+- document: documento atual
+- history: de onde vc veio e pra onde vc vai
+
+//document
+dentro de document temos o objeto html
+
+//html
+dentro de html temos mais 2 objetos: head e body
+
+[...]
+
+-------------------------------------------------------------------
+
+ALGUNS MÉTODOS DE ACESSO AOS ELEMENTOS/OBJETOS
+
+- por Marca/Tag
+- por ID
+- por Nome
+- por Classe
+- por Seletor
+
+//MARCA
+getElementsByTagName()
+
+
+//ID
+getElementById()
+
+//NOME
+getElementsByName()
+
+//CLASSE
+getElementsByClassesName()
+
+//SELETOR
+querySelector()
+querySelectorAll()
+os manuais recomendam a utilização por seletor ao invés das maneiras anteriores
+          
