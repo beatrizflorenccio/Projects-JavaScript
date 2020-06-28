@@ -7,7 +7,7 @@
     <style>
         body {
             background-color: rgb(91, 91, 255);
-            font: normal 18px Helvetica;
+            font: normal normal 18px Helvetica, Arial, sans-serif;
             color: white;
         }
 
@@ -16,9 +16,14 @@
 <body>
     <h1>Iniciando estudos DOM</h1>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-    <div>Clique aqui kaka</div>
+    <p>Veja o resultado.</p>
+    <div id="msg">Clique aqui</div>
     <script>
-        
+        //acessando elementos por marca/tag
+        var p1 = window.document.getElementsByTagName('p')[0] //seleciona o parágrafo 0 (primeiro)
+        var d = window.document.getElementById('msg')
+
+
     </script>
     
 </body>
