@@ -1,0 +1,83 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    
+    background-color: rgb(46, 46, 46);
+}
+
+
+form {
+    background-color: rgb(24, 24, 24);
+
+    width: 100%;
+    max-width: 500px;
+
+    margin: 32px auto;
+    padding: 32px 64px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    margin-bottom: 32px;
+}
+
+div.input {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+input, button {
+    appearance: none;
+
+    /*box*/
+    width: 100%;
+    padding: 16px 0;
+
+    border: none;
+    border-bottom: 1px solid rgb(44, 44, 253);
+
+    background-color: transparent;
+
+    outline: none;
+
+    color: white;
+}
+
+button {
+    margin-top: 16px;
+    background-color: rgb(44, 44, 253);
+}
+
+input ~ label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: .45;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-25px);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+div.input span.error {
+    display: flex;
+
+    padding: 0px;
+
+    background-color: rgba(255, 0, 0, 0.205);
+}
+
+div.input span.error.active {
+    border: 1px solid red;
+    padding: 3px;
+}
+
